@@ -12,6 +12,7 @@ class VerificationCodesController extends Controller
 {
      public function store(VerificationCodeRequest $request, EasySms $easySms)
     {
+
         $phone = $request->phone;
 
         // 生成4位随机数，左侧补0
@@ -19,6 +20,7 @@ class VerificationCodesController extends Controller
 
         try {
             $result = $easySms->send($phone, [
+            	// 'template' => 'SMS_130917722',
             	'template' => 'SMS_130917722',
                 'data' => [
 			        'code' =>$code

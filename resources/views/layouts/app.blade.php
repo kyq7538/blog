@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +25,19 @@
     <![endif]-->
     @section('css')
     @show
+    <style>
+        .nav li a:hover{
+            color:red;
+        }
+        #asd > li{
+            margin-left:25px;
+            text-align:center;
+            width:80px;height:50px;
+            line-height:50px;
+            border:1px solid #F1F1F1;
+            border-radius:2px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -43,7 +55,7 @@
 
                 <nav class="pull-right clean-nav">
                     <div class="collapse navbar-collapse">
-                        <ul class="nav nav-pills navbar-nav">
+                        <ul class="nav navbar-nav" id="asd" nav-pills >
                            <!--  <li>
                                 <a href="{{ url('/') }}">Home</a>
                             </li> -->

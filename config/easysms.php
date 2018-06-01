@@ -19,9 +19,11 @@ return  [
             'file' => '/tmp/easy-sms.log',
         ],
         'aliyun' => [
+            // 'access_key_id' => 'LTAI9WBlTBgp3Xxf',
             'access_key_id' => 'LTAI9WBlTBgp3Xxf',
+            // 'access_key_secret' => 'OutNxZrawxbQbFzeqmmz7yzfVcPSO5',
             'access_key_secret' => 'OutNxZrawxbQbFzeqmmz7yzfVcPSO5',
-            'sign_name' => '送给牛晶的一句话',
+            // 'sign_name' => '送给牛晶的一句话',
         ],
     ],
 ];

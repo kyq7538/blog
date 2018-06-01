@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
- 
-
     <div class="widewrapper main">
         <div class="container">
             <div class="row">
